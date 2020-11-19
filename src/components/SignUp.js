@@ -9,6 +9,9 @@ import {
   } from "react-router-dom";
 
 function SignUpComponent() {
+    const handlesigup = () =>{
+        alert('😍Sign Up Successful!')
+    }
   return (
     <div>
         <div className="login-form">
@@ -25,7 +28,7 @@ function SignUpComponent() {
         </div>
 
         <div className="form-group">
-            <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+            <button className="btn btn-primary btn-block" onClick={handlesigup}>Sign Up</button>
         </div>
               
     </form>

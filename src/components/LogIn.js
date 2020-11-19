@@ -9,6 +9,10 @@ import {
   } from "react-router-dom";
 
 function LogInComponent() {
+
+    const handlelogin = () =>{
+        alert('😍Sign In Successful!')
+    }
   return (
     <div>
         <div className="login-form">
@@ -21,7 +25,7 @@ function LogInComponent() {
             <input type="password" className="form-control" placeholder="Password" required="required"/>
         </div>
         <div className="form-group">
-            <button type="submit" className="btn btn-primary btn-block">Log in</button>
+            <button className="btn btn-primary btn-block" onClick={handlelogin}>Log in</button>
         </div>
               
     </form>
