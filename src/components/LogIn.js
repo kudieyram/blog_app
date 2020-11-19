@@ -11,7 +11,7 @@ function LogInComponent() {
         alert('😍Sign In Successful')
     }
   return (
-    <div>
+    <div >
         <div className="login-form">
     <form>
         <h2 className="text-center">Log in</h2>       

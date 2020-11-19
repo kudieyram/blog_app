@@ -1,10 +1,35 @@
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
+ }
+ .login-form form {
+  margin-bottom: 15px;
+  background: #dddada;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-control, .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.btn {        
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: lightblue;
+}
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(26, 26, 158);
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
 }
 
 code {
