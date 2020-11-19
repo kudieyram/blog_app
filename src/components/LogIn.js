@@ -1,6 +1,12 @@
 import React from 'react'
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function LogInComponent() {
   return (
@@ -19,7 +25,7 @@ function LogInComponent() {
         </div>
               
     </form>
-    <p className="text-center"><a href="#">Create an Account</a></p>
+    <p className="text-center"><a><Link to="/signup">Create an Account</Link></a></p>
 </div>
     </div>
   );
