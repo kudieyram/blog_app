@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import LogInComponent from './components/LogIn';
 import SignUpComponent from './components/SignUp';
@@ -8,7 +8,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import NotfoundComponent from './components/Notfound';
 
