@@ -8,7 +8,7 @@ import {
 function LogInComponent() {
 
     const handlelogin = () =>{
-        alert('😍Sign In Successful!')
+        alert('😍Sign In Successful')
     }
   return (
     <div>
@@ -26,7 +26,7 @@ function LogInComponent() {
         </div>
               
     </form>
-    <p className="text-center"><a><Link to="/signup">Create an Account</Link></a></p>
+    <p className="text-center"><a>New here? <Link to="/signup">Create an Account</Link></a></p>
 </div>
     </div>
   );
