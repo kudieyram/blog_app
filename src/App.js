@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import NotfoundComponent from './components/Notfound';
 
 
 function App() { 
@@ -28,8 +29,11 @@ function App() {
           <Route path="/post">
             <PostComponent/>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <LogInComponent/>
+          </Route>
+          <Route>
+            <NotfoundComponent/>
           </Route>
         </Switch>
       </div>
