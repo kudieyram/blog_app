@@ -1,15 +1,25 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import '../css/Notfound.css'
+import {
+  Link
+} from "react-router-dom";
 
 
-function NotfoundComponent() {
-
+function NotFoundComponent() {
   return (
     <div>
-        <h1> Page not found! 404</h1>
+      <div className="container">
+      <div className="error-wrapper">
+          <div className="man-icon"></div>
+          <h3 className="title">404</h3>
+          <p className="info">Oh! Page not found</p>
+          <a className="home-btn info"><Link to="/">Go Home</Link></a>
+      </div>
+    </div>
     </div>
   );
 }
 
-export default NotfoundComponent;
+export default NotFoundComponent;
