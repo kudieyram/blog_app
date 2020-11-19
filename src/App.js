@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import LogInComponent from './components/LogIn';
 import SignUpComponent from './components/SignUp';
+import PostComponent from './components/Post'
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <SignUpComponent />
+          </Route>
+          <Route path="/post">
+            <PostComponent/>
           </Route>
           <Route path="/">
             <LogInComponent/>
